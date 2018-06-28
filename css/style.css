@@ -1,12 +1,4 @@
 
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
 /* ================================================================ */
 body {
   font-family: 'Poppins', sans-serif;
@@ -21,13 +13,13 @@ body {
 }
 
 a {
-  color: #FF847C;
+  color: #F9508c;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #FF847C;
+  color: #F9508c;
   outline: none;
 }
 
@@ -91,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
   #qbootstrap-header #navbar li.active a {
     background: transparent;
     background: none;
-    color: #FF847C !important;
+    color: #F9508c !important;
   }
   #qbootstrap-header #navbar li.active a span:before {
     visibility: visible;
@@ -104,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 #qbootstrap-header #navbar li a {
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: rgba(255, 255, 255, 0.5);
   position: relative;
 }
@@ -228,26 +220,26 @@ h1, h2, h3, h4, h5, h6 {
 .section-heading {
   float: left;
   width: 100%;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
+  /* padding-bottom: 50px; */
+  /* margin-bottom: 50px; */
   clear: both;
 }
 .section-heading.svg-sm-2 .svg {
-  height: 150px;
+  height: 100px;
   margin-bottom: 0;
   padding: 0;
 }
 .section-heading.svg-sm .svg {
-  height: 180px;
-  margin-bottom: -80px;
-  padding: 0;
+  height: 100px;
+  margin-bottom: -20px;
+  padding-top: 10px;
 }
 .section-heading.colored .svg {
   fill: #FF847C;
 }
 .section-heading h2 {
   font-size: 80px;
-  color: #FF847C;
+  color: #F9508c;
   display: block;
   padding-bottom: 20px;
   line-height: 1.5;
@@ -285,7 +277,7 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-gallery,
 #qbootstrap-testimonials,
 #qbootstrap-press {
-  padding: 7em 0;
+  padding: 4em 0;
 }
 @media screen and (max-width: 480px) {
   #qbootstrap-couple,
@@ -298,7 +290,7 @@ h1, h2, h3, h4, h5, h6 {
   #qbootstrap-gallery,
   #qbootstrap-testimonials,
   #qbootstrap-press {
-    padding: 5em 0;
+    padding: 2em 0;
   }
 }
 
@@ -365,7 +357,7 @@ h1, h2, h3, h4, h5, h6 {
 .qbootstrap-cover .display-tc .holder,
 .video-hero .display-tc .holder {
   color: #fff;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 10px;
@@ -527,7 +519,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .holder {
   color: #fff;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 10px;
@@ -572,7 +564,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 40px;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 #qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner h2 a {
   color: rgba(255, 255, 255, 0.5);
@@ -605,10 +597,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #qbootstrap-couple img {
   margin-bottom: 20px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
 }
 #qbootstrap-couple h3 {
   font-size: 34px;
@@ -701,7 +689,7 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-countdown .countdown small {
   display: block;
   font-size: 14px;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   letter-spacing: 10px;
   text-transform: uppercase;
 }
@@ -725,7 +713,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 10px;
   right: 10px;
   content: '';
-  background: #f4f3e2;
+  background: #fdfdfd;
   z-index: -1;
 }
 .couple.bride {
@@ -739,7 +727,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 10px;
   right: 10px;
   content: '';
-  background: #fef6f8;
+  background: #fdfdfd;
   z-index: -1;
 }
 .couple img {
@@ -757,7 +745,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
 }
 .couple .desc h2 {
-  color: #FF847C;
+  color: #F9508c;
   font-size: 40px;
   margin-bottom: 30px;
 }
@@ -851,11 +839,11 @@ h1, h2, h3, h4, h5, h6 {
   left: 10px;
   right: 10px;
   content: '';
-  background: #f4f3e2;
+  background: #fdfdfd;
   z-index: -1;
 }
 .timeline > li > .timeline-panel .overlay.overlay-2 {
-  background: #fef6f8;
+  background: #fdfdfd;
 }
 .timeline > li > .timeline-badge {
   background-size: cover;
@@ -905,7 +893,7 @@ h1, h2, h3, h4, h5, h6 {
 .timeline-title {
   margin-top: 0;
   font-size: 34px;
-  color: #FF847C;
+  color: #F9508c;
   margin-bottom: 30px;
 }
 
@@ -1155,7 +1143,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 10px;
   right: 10px;
   content: '';
-  background: #f4f3e2;
+  background: #fdfdfd;
   z-index: -1;
 }
 .wedding-events .desc h3 {
@@ -1235,7 +1223,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.7);
 }
 #qbootstrap-started .qbootstrap-heading h2 {
   color: #fff;
@@ -1275,7 +1263,7 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-started .btn {
   height: 54px;
   border: none !important;
-  background: #FF847C;
+  background: #F9508c;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -1410,7 +1398,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 .qbootstrap-nav-toggle.active i::before, .qbootstrap-nav-toggle.active i::after {
-  background: #FF847C;
+  background: #F9508c;
 }
 .qbootstrap-nav-toggle:hover, .qbootstrap-nav-toggle:focus, .qbootstrap-nav-toggle:active {
   outline: none;
@@ -1424,18 +1412,18 @@ h1, h2, h3, h4, h5, h6 {
   *display: inline;
   width: 25px;
   height: 3px;
-  color: #FF847C;
+  color: #F9508c;
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
-  background: #FF847C;
+  background: #F9508c;
   transition: all .2s ease-out;
 }
 .qbootstrap-nav-toggle i::before, .qbootstrap-nav-toggle i::after {
   content: '';
   width: 25px;
   height: 3px;
-  background: #FF847C;
+  background: #F9508c;
   position: absolute;
   left: 0;
   -webkit-transition: 0.2s;
@@ -1542,14 +1530,14 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #FF847C;
+  background: #F9508c;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #FF847C;
+  background: #F9508c;
 }
 .btn:hover, .btn:active, .btn:focus {
   background: #393e46 !important;
@@ -1681,4 +1669,8 @@ h1, h2, h3, h4, h5, h6 {
   animation-fill-mode: both;
 }
 
-/*# sourceMappingURL=style.css.map */
+@media screen and (max-width: 768px) {
+  #qbootstrap-header .navbar-brand {
+    color: #000 !important;
+  }
+}
