@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .section-heading h2 {
   font-size: 80px;
-  color: #F9508c;
+  color: #800060;
   display: block;
   padding-bottom: 20px;
   line-height: 1.5;
@@ -893,7 +893,7 @@ h1, h2, h3, h4, h5, h6 {
 .timeline-title {
   margin-top: 0;
   font-size: 20px;
-  color: #F9508c;
+  color: #800060;
   margin-bottom: 20px;
 }
 
@@ -1263,7 +1263,7 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-started .btn {
   height: 54px;
   border: none !important;
-  background: #F9508c;
+  background: #800060;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
